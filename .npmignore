@@ -1,0 +1,6 @@
+bin/
+node_modules/
+obj/
+*.njsproj
+*.njsproj.user
+*.tsconfig.json
