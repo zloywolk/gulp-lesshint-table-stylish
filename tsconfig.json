@@ -8,8 +8,6 @@
     "declarationDir": "types"
   },
   "exclude": [
-    "node_modules",
-    "gulp-lesshint-stylish/**/*.js.map",
-    "gulp-lesshint-stylish/**/*.js"
+    "node_modules"
   ]
 }
