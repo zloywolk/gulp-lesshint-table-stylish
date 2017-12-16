@@ -43,8 +43,8 @@ function report(results) {
                             chalk.gray('line ') + chalk.white("" + e.line),
                             chalk.gray('col ') + chalk.white("" + e.column),
                             //chalk.gray(`col ${e.column}`),
-                            isError ? chalk.red(e.message) : chalk.yellow(e.message),
-                            chalk.gray('lint ') + chalk.green("(" + e.linter + ")")
+                            isError ? chalk.redBright(e.message) : chalk.yellowBright(e.message),
+                            chalk.gray('lint ') + chalk.greenBright("(" + e.linter + ")")
                         ];
                         //if (e.source)
                         //    line.push(chalk.gray(' source ') + chalk.white(e.source));
@@ -74,3 +74,4 @@ function report(results) {
     console.log(ret);
 }
 exports.report = report;
+//# sourceMappingURL=index.js.map
